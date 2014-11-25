@@ -19,3 +19,6 @@
 [submodule "opensm"]
 	path = opensm
 	url = git://flatbed.openfabrics.org/~halr/opensm.git
+[submodule "libmlx5"]
+	path = libmlx5
+	url = git://openfabrics.org/~eli/libmlx5.git
