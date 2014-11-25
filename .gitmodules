@@ -13,9 +13,6 @@
 [submodule "libibverbs"]
 	path = libibverbs
 	url = git://git.kernel.org/pub/scm/libs/infiniband/libibverbs.git
-[submodule "libibmad"]
-	path = libibmad
-	url = git://flatbed.openfabrics.org/~iraweiny/libibmad.git
 [submodule "opensm"]
 	path = opensm
 	url = git://flatbed.openfabrics.org/~halr/opensm.git
