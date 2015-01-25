@@ -3,7 +3,7 @@
 	url = https://github.com/hnrose/ibssa2.git
 [submodule "librdmacm"]
 	path = librdmacm
-	url = git://git.openfabrics.org/~shefty/librdmacm.git
+	url = git@github.com:hnrose/librdmacm.git
 [submodule "libmlx4"]
 	path = libmlx4
 	url = git://git.kernel.org/pub/scm/libs/infiniband/libmlx4.git
