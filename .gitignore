@@ -1,0 +1,65 @@
+###################
+# Compiled source #
+###################
+*.slo
+*.lo
+*.o
+*.so
+*.dylib
+*.lai
+*.la
+*.a
+*.exe
+*.out
+*.app
+
+.deps/
+.libs/
+libtool
+config.h
+
+###################
+# Autoconfigure   #
+###################
+autom4te.cache
+aclocal.m4
+config
+config.log
+config.status
+configure
+INSTALL
+Makefile
+Makefile.in
+COPYING
+!./COPYING
+stamp-h1
+config.h.in
+*.spec
+configure.in
+.dirstamp
+m4/
+####################
+# git files        #
+####################
+.gitignore
+
+#####################
+#   dumps           #
+#####################
+core.*
+
+#####################
+#   vim temp files  #
+#####################
+*~
+*.swo
+
+#####################
+# ctags temp files  #
+#####################
+tags
+
+########################
+# patch created by git #
+########################
+[0-9][0-9][0-9][0-9]-*.patch
