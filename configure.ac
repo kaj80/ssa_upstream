@@ -1,0 +1,18 @@
+AC_INIT([ssa], [1.0])
+AC_CONFIG_AUX_DIR([.])
+AM_INIT_AUTOMAKE([foreign])
+AC_PROG_CC
+AC_CONFIG_FILES([Makefile])
+#AC_CONFIG_SUBDIRS([libibumad],[libibverbs],[librdmacm],[opensm],[libmlx4],[libmlx5],[ibssa2/plugin],[ibssa2/distib],[ibssa2/acm])
+#AC_CONFIG_SUBDIRS([libibumad])
+#AC_CONFIG_SUBDIRS([libibverbs])
+#AC_CONFIG_SUBDIRS([librdmacm])
+#AC_CONFIG_SUBDIRS([opensm])
+#AC_CONFIG_SUBDIRS([libmlx4])
+#AC_CONFIG_SUBDIRS([libmlx5])
+#AC_CONFIG_SUBDIRS([ibssa2/plugin])
+#AC_CONFIG_SUBDIRS([ibssa2/distrib])
+#AC_CONFIG_SUBDIRS([ibssa2/acm])
+#AC_CONFIG_SUBDIRS([libibumad,libibverbs,librdmacm,opensm,libmlx4,libmlx5,ibssa2/plugin,ibssa2/distib,ibssa2/acm])
+AC_CONFIG_SUBDIRS(libibumad libibverbs librdmacm opensm libmlx4 libmlx5 ibssa2)
+AC_OUTPUT
