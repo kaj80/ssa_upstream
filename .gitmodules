@@ -1,21 +1,28 @@
 [submodule "ibssa2"]
 	path = ibssa2
 	url = https://github.com/hnrose/ibssa2.git
+	branch = master
 [submodule "librdmacm"]
 	path = librdmacm
 	url = git@github.com:hnrose/librdmacm.git
+	branch = ssa
 [submodule "libmlx4"]
 	path = libmlx4
 	url = git://git.kernel.org/pub/scm/libs/infiniband/libmlx4.git
+	branch = master
 [submodule "libibumad"]
 	path = libibumad
 	url = git://flatbed.openfabrics.org/~halr/libibumad.git
+	branch = master
 [submodule "libibverbs"]
 	path = libibverbs
 	url = git://git.kernel.org/pub/scm/libs/infiniband/libibverbs.git
+	branch = master
 [submodule "opensm"]
 	path = opensm
 	url = git://flatbed.openfabrics.org/~halr/opensm.git
+	branch = master
 [submodule "libmlx5"]
 	path = libmlx5
 	url = git://openfabrics.org/~eli/libmlx5.git
+	branch = master
