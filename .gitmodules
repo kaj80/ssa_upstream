@@ -26,3 +26,6 @@
 	path = libmlx5
 	url = git://openfabrics.org/~eli/libmlx5.git
 	branch = master
+[submodule "ompi"]
+	path = ompi
+	url = https://github.com/mellanox-hpc/ompi-release
